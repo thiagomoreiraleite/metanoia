@@ -1,5 +1,6 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 // Define fonts for body and headers
 // $body-font: "Work Sans", "Helvetica", "sans-serif";
@@ -23,7 +24,7 @@
     //      font-url('Avenir/AvenirLight.ttf') format('truetype');
     font-weight: normal;
   }
-  
+
   @font-face {
     font-family: "Butler_Bold";
     src: font-url('Butler_Bold/Butler_Bold.otf');
@@ -32,7 +33,7 @@
     //      font-url('Avenir/AvenirMedium.ttf') format('truetype');
     font-weight: normal;
   }
-  
+
   @font-face {
     font-family: "Butler_ExtraBold";
     src: font-url('Butler_ExtraBold/Butler_ExtraBold.otf');
@@ -86,10 +87,10 @@
     //      font-url('Avenir/AvenirBold.ttf') format('truetype');
     font-weight: normal;
   }
-  
+
   $my-font: "Butler_Regular";
-  $my-font2: "Comfortaa-VariableFont_wght";
-  
+  $my-font2: "Comfortaa";
+
   $base-font: $my-font2;
   $header-font: $my-font;
   $body-font: $my-font2;
