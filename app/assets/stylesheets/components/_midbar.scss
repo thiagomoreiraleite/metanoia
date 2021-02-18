@@ -1,14 +1,15 @@
 .tabs-underlined {
     display: flex;
-    align-items: center bottom;
+    align-items:stretch;
     text-decoration: none;
     justify-content: space-between;
     padding-bottom: 0px;
     // margin-bottom: auto;
     border-bottom: 2px solid white;
-    vertical-align: bottom;
+    // vertical-align: bottom;
     // position: absolute;
     // bottom: 10px;
+    width: 100%;
 }
   
 .tabs-underlined .tab-underlined {
@@ -21,8 +22,8 @@
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    display: inline-block;
-    // border-bottom: 2px solid white;
+    // display: inline-block;
+    border-bottom: 3px solid transparent;
     p {
         font-size: 16pt;
         font-family: $my-font2;
@@ -39,5 +40,4 @@
     background-size: cover; 
     background-position: center bottom; 
     background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), asset-url('chess.png');
-    margin-bottom: 100px;
 }
