@@ -32,6 +32,10 @@ li a {
   font-family: $my-font;
 }
 
+.nopointer {
+  cursor: default;
+}
+
 li a:hover:not(.active) {
   color: $yellow;
   text-decoration: none;
@@ -42,3 +46,16 @@ li a.active {
   text-decoration: none;
 }
 
+.btn-navbar {
+  font-size: 10pt;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: opacity 0.3s ease;
+}
+
+.lesspadding  {
+  padding-right: 2px;
+}
