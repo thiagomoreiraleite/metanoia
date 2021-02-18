@@ -1,0 +1,35 @@
+.tabs-underlined {
+    display: flex;
+    align-items: center bottom;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    // margin-bottom: auto;
+    border-bottom: 2px solid white;
+    vertical-align: bottom;
+    // position: absolute;
+    // bottom: 10px;
+}
+  
+.tabs-underlined .tab-underlined {
+    color: white;
+    // padding: 8px;
+    // padding-bottom: 2px;
+    // margin: 0;
+    // margin-bottom: auto;
+    // margin-top: auto;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    // border-bottom: 2px solid white;
+    p {
+        font-size: 16pt;
+        font-family: $my-font2;
+    }
+}
+  
+.tabs-underlined .tab-underlined:hover {
+    border-bottom: 3px solid $yellow;
+    text-decoration: none;
+}

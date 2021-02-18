@@ -11,19 +11,17 @@
 //   width: 40px;
 // }
 
-ul {
+.navbar {
   list-style-type: none;
-  // margin: 0;
   margin: 35px;
   padding: 0;
-  // border-bottom: 2px solid $white;
 }
 
-li {
+.navbar li {
   display: inline;
 }
 
-li a {
+.navbar li a {
   color:$white;
   text-align: center;
   padding: 14px 16px;
@@ -32,13 +30,30 @@ li a {
   font-family: $my-font;
 }
 
-li a:hover:not(.active) {
+.nopointer {
+  cursor: default;
+}
+
+.navbar li a:hover:not(.active) {
   color: $yellow;
   text-decoration: none;
 }
 
-li a.active {
+.navbar li a.active {
   color: $yellow;
   text-decoration: none;
 }
 
+.navbar .btn-navbar {
+  font-size: 10pt;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: opacity 0.3s ease;
+}
+
+.navbar .lesspadding  {
+  padding-right: 2px;
+}
