@@ -43,6 +43,15 @@
   font-family: $my-font2;
 }
 
+.navbar .btn-navbar:hover {
+  text-decoration: none;
+  background-color: white;
+}
+
+#btn-navbar2:hover {
+  color: black;
+}
+
 .navbar .lesspadding  {
   padding-right: 2px;
 }
