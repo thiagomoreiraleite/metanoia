@@ -1,0 +1,33 @@
+.solucoes-header {
+    // margin-top: 100px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
+    display: inline;
+    h1 {
+      font-family: $my-font2; 
+      font-size: 28pt; 
+      color: $gray;
+      span {
+        font-family: $my-font;  
+      }
+    }
+  }
+
+.solucoes-header-symbol {
+    display: inline;
+    // font-size: 56pt;
+    width: 70px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-image: asset-url("inverted&.png");
+    margin: 5px;
+}
+
+.solucoes-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

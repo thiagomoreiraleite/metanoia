@@ -1,9 +1,11 @@
-<div class="cards">
+<div class="cards-header"><h1>3 VISÕES DIFERENTES<br>UM MESMO OBJETIVO</h1></div>
 
-  <div class="flip-card">
+
+<div class="cards">
+  <div class="flip-card mr-2">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="image-card flip-card-front" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1610611742876-97e4d834d077?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDB8fGJ1c2luZXNzJTIwcG9ydHJhaXQlMjBtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60)">
+        <div class="image-card flip-card-front" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'agliberto.png' %>)">
           <div class="image-card-info-left">
             <h2 style="font-family: Comfortaa">AGLIBERTO</h2>
             <h2>RIBEIRO</h2>
@@ -22,10 +24,10 @@
     </div>
   </div>
 
-  <div class="flip-card">
+  <div class="flip-card mr-2">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="image-card flip-card-front" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1610611742876-97e4d834d077?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDB8fGJ1c2luZXNzJTIwcG9ydHJhaXQlMjBtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60)">
+        <div class="image-card flip-card-front" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'gabriel.png' %>)">
           <div class="image-card-info-center">
             <h2 style="font-family: Comfortaa">GABRIEL</h2>
             <h2>CAMPELO</h2>
@@ -44,11 +46,25 @@
     </div>
   </div>
 
-  <div class="image-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1610611742876-97e4d834d077?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDB8fGJ1c2luZXNzJTIwcG9ydHJhaXQlMjBtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60)">
-    <div class="image-card-info-right">
-      <h2 style="font-family: Comfortaa">LEONARDO</h2>
-      <h2>BAYMA</h2>
-      <p>Estrategista político</p>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="image-card flip-card-front" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'agliberto.png' %>)">
+          <div class="image-card-info-right">
+            <h2 style="font-family: Comfortaa">LEONARDO</h2>
+            <h2>BAYMA</h2>
+            <p>Estrategista político</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <p class="text-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+        <div class="image-card-info-right">
+            <h2 style="font-family: Comfortaa">LEONARDO</h2>
+            <h2>BAYMA</h2>
+            <p>Estrategista político</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
