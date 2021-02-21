@@ -3,19 +3,17 @@
     <%= render 'navbar' %>
     <%= render 'midbar' %>
   </div>
-  <div style="height:10px; background: linear-gradient(to bottom, rgba(0,0,0,0.05), rgba(0,0,0,0.4)); width:100%; top: 605px; position: absolute;"></div>
-  <div style="height:10px; background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7)); width:100%; top: 615px; position: absolute;"></div>
-  <div style="height:10px; background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,1)); width:100%; top: 625px; position: absolute;"></div>
-  <div style="margin-top: 70px; height:760px; background-position: center bottom; background-size: cover; background-image:url(<%= asset_path'bkg_socios'%>);">
-  <div style="height:130px;"></div>
+  <div style="margin-top: 70px; height:800px; background-position: center; background-size: auto; background-repeat: no-repeat; background-image:url(<%= asset_path'bkg_socios'%>);">
+    <div style="height:140px;"></div>
     <div class="container">
       <%= render 'cards' %>
     </div>
   </div>
-  <div style="background-color:white">
+  <div style="background-color:white; height:560px;">
+    <div style="height:146px; padding-top:40px; background-repeat: no-repeat; background-size: auto; background-position: center; background-image:url(<%= asset_path'title_solucoes'%>);"></div>
     <div class="container">
       <%= render 'solucoes' %>
     </div>
+    <div></div>
   </div>
 </div>
-

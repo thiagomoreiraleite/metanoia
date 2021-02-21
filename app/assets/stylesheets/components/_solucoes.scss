@@ -1,33 +1,10 @@
-.solucoes-header {
-    // margin-top: 100px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    text-align: center;
-    display: inline;
-    h1 {
-      font-family: $my-font2; 
-      font-size: 28pt; 
-      color: $gray;
-      span {
-        font-family: $my-font;  
-      }
-    }
-  }
-
-.solucoes-header-symbol {
-    display: inline;
-    // font-size: 56pt;
-    width: 70px;
-    height: 80px;
-    background-size: cover;
-    background-position: center;
-    background-image: asset-url("inverted&.png");
-    margin: 5px;
-}
-
-.solucoes-header-wrapper {
+.solucoes-wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
+
+.text-solucoes {
+    padding: 0 32px 32px 32px;
+    text-align: right;
+  }
