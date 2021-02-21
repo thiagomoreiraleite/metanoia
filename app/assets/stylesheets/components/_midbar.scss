@@ -23,7 +23,7 @@
     text-decoration: none;
     text-align: center;
     // display: inline-block;
-    border-bottom: 3px solid transparent;
+    border-bottom: 4px solid transparent;
     p {
         font-size: 16pt;
         font-family: $my-font2;
@@ -31,7 +31,7 @@
 }
   
 .tabs-underlined .tab-underlined:hover {
-    border-bottom: 3px solid $yellow;
+    border-bottom: 4px solid $yellow;
     text-decoration: none;
 }
 
