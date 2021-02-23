@@ -148,3 +148,27 @@
     position: absolute;
     left: -50px;
 }
+
+.footer-header {
+    display:flex; 
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.footer-contacts {
+    display:flex; 
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.footer-agencia {
+    display:flex; 
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
