@@ -5,34 +5,47 @@
     justify-content: space-between;
     padding-bottom: 0px;
     // margin-bottom: auto;
-    border-bottom: 2px solid white;
+    // border-bottom: 2px solid white;
     // vertical-align: bottom;
     // position: absolute;
     // bottom: 10px;
     width: 100%;
 }
   
-.tabs-underlined .tab-underlined {
+.tab-underlined {
     color: white;
-    // padding: 8px;
+    padding: 0 30px;
     // padding-bottom: 2px;
-    // margin: 0;
+    margin: 0;
     // margin-bottom: auto;
     // margin-top: auto;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
     // display: inline-block;
-    border-bottom: 4px solid transparent;
+    border-bottom: 3px solid white;
     p {
         font-size: 16pt;
         font-family: $my-font2;
     }
 }
   
-.tabs-underlined .tab-underlined:hover {
-    border-bottom: 4px solid $yellow;
+.yellow {
+    color: white;
+    padding: 0 30px;
+    // padding-bottom: 2px;
+    margin: 0;
+    // margin-bottom: auto;
+    // margin-top: auto;
+    cursor: pointer;
     text-decoration: none;
+    text-align: center;
+    // display: inline-block;
+    border-bottom: 3px solid $yellow;
+    p {
+        font-size: 16pt;
+        font-family: $my-font2;
+    }
 }
 
 #background {
