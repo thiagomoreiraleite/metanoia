@@ -116,7 +116,7 @@ Rails.application.configure do
   ActionMailer::Base.smtp_settings = {
   :user_name => ENV['USERNAME'],
   :password => ENV['PASSWORD'],
-  :domain => 'hotmail.com',
+  :domain => 'yahoo.com.br',
   :address => 'smtp.mail.yahoo.com',
   :port => 587,
   :authentication => :plain,
