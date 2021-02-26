@@ -114,9 +114,9 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['SENDGRID_USERNAME'],
-  :password => ENV['SENDGRID_PASSWORD'],
-  :domain => 'yahoo.com.br',
+  :user_name => ENV['USERNAME'],
+  :password => ENV['PASSWORD'],
+  :domain => 'hotmail.com',
   :address => 'smtp.mail.yahoo.com',
   :port => 587,
   :authentication => :plain,
