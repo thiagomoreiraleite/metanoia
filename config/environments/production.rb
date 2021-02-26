@@ -110,8 +110,8 @@ Rails.application.configure do
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
-  config.action_mailer.default_url_options = { host: 'https://agenciametanoia.herokuapp.com' }
-  config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.default_url_options = { host: 'https://agenciametanoia.herokuapp.com' }
+  # config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
   :user_name => ENV['SENDGRID_USERNAME'],
