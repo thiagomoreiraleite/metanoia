@@ -135,20 +135,25 @@
 .carousel-control-next-icon
 {
   background-image: asset-url('botao_next.png');
-  height: 111px;
-  width: 111px;
+  background-position: center; 
+  background-size: auto; 
+  background-repeat: no-repeat;
+  height: 82px;
+  width: 82px;
   position: absolute;
-  right: -50px;
-  opacity: 1;
+  right: -30px;
+  opacity: unset;
 }
 
 .carousel-control-prev-icon {
     background-image: asset-url('botao_prev.png');
-    height: 111px;
-    width: 111px;
+    background-position: center; 
+    background-size: auto; 
+    background-repeat: no-repeat;
+    height: 82px;
+    width: 82px;
     position: absolute;
-    left: -65px;
-    opacity: 1;
+    left: -45px;
 }
 
 .footer-header {
