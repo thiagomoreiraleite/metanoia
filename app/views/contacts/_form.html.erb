@@ -5,15 +5,23 @@
         <p> <%= flash[:error] %> </p>
     <% end %>
 
-    <%= f.text_field :name, required: true, placeholder: "Seu nome" %>
-    <%= f.text_area :message, as: :text, placeholder: "Sua mensagem" %>
-    <%= f.text_field :email, required: true, placeholder: "Seu e-mail" %>
+    <div class="align-form-items">
+      <div class="left-column">
+        <%= f.text_field :name, required: true, placeholder: "Seu nome", id: "upper-input" %>
+        <%= f.text_field :email, required: true, placeholder: "Seu e-mail" %>
+      </div>
+      <div class="center-column">
+        <%= f.text_area :message, as: :text, placeholder: "Sua mensagem" %>
+      </div>
+      <div class="right-column">
+        <%= f.submit 'Enviar', class: "form-btn" %>
+      </div>
+    </div>
 
     <div style="display: none;">
     <%= f.label :nickname %> <br>
     <%= f.text_field :nickname, hint: 'leave this field blank' %>
     </div>
 
-    <%= f.submit 'Enviar', class: "form-btn" %>
   <% end %>
 </div>
